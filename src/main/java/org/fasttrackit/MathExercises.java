@@ -1,6 +1,5 @@
 package org.fasttrackit;
 
-import org.w3c.dom.ls.LSOutput;
 
 import java.util.Scanner;
 
@@ -15,12 +14,23 @@ public class MathExercises {
 
         System.out.println(sum);
     }
+    public void addition (int number1, int number2){
+
+       int sum = number1 + number2;
+        System.out.println(sum);
+    }
 
     public void subtraction(){
 
         double sub = number1 - number2;
 
         System.out.println(sub);
+    }
+
+    public void subtraction (int number1, int number2){
+
+        int sum = number1 + number2;
+        System.out.println(sum);
     }
 
     public void multiplication(){
@@ -30,11 +40,23 @@ public class MathExercises {
         System.out.println(multi);
     }
 
+    public void multiplication (int number1, int number2){
+
+        int sum = number1 + number2;
+        System.out.println(sum);
+    }
+
     public void division(){
 
         double div = number1 / number2;
 
         System.out.println(div);
+    }
+
+    public void division (int number1, int number2){
+
+        int sum = number1 + number2;
+        System.out.println(sum);
     }
 
     private double getNumber1FromUser(){
