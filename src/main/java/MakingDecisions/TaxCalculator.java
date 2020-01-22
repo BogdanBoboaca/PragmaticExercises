@@ -14,7 +14,7 @@ public class TaxCalculator {
         System.out.println("What is the state? ");
         String state  = scanner.next();
 
-        if (state.equals("WI")){
+        if (state.equalsIgnoreCase("WI")){
 
             System.out.println("Please enter the tax");
             double tax = scanner.nextDouble();
